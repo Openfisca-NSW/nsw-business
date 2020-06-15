@@ -1,4 +1,4 @@
-# $EXT_NAME 
+# $nsw-business
 
 This is a template for making extensions in NSW.
 
