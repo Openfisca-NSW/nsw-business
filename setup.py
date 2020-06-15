@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="$EXT_NAME",
+    name="nsw-business",
     version="0.0.1",
     author="Department of Customer Service - NSW Government",
     author_email = 'sara.falamaki@customerservice.nsw.gov.au',
