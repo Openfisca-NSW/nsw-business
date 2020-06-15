@@ -1,0 +1,5 @@
+description: Payroll threshold
+reference:
+values:
+  2018-01-31:
+    value: 900000
