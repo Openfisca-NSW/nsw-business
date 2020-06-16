@@ -8,7 +8,8 @@
     annual_turnover: 85000
     based_in_nsw: True
     payroll: 850000
-    turnover_calculations: 0.80
+    lowest_turnover_for_two_weeks: 1000
+    corresponding_turnover_last_year: 30000
   output:
     eligible_for_covid_19_business_grant: True
 - name: Small business has FTE greater than threshold,
@@ -22,6 +23,7 @@ hence not eligible for COVID grant
     annual_turnover: 85000
     based_in_nsw: True
     payroll: 850000
-    turnover_calculations: 0.80
+    lowest_turnover_for_two_weeks: 1000
+    corresponding_turnover_last_year: 30000
   output:
     eligible_for_covid_19_business_grant: False
