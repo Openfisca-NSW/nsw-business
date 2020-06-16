@@ -1,0 +1,27 @@
+- name: Small business is eligible for a eligible for COVID grant
+  period: 2020-07
+  input:
+    is_small_business: True
+    has_abn: True
+    highly_impacted: True
+    number_of_fte: 3
+    annual_turnover: 85000
+    based_in_nsw: True
+    payroll: 850000
+    turnover_calculations: 0.80
+  output:
+    eligible_for_covid_19_business_grant: True
+- name: Small business has FTE greater than threshold,
+hence not eligible for COVID grant
+  period: 2020-07
+  input:
+    is_small_business: True
+    has_abn: True
+    highly_impacted: True
+    number_of_fte: 22
+    annual_turnover: 85000
+    based_in_nsw: True
+    payroll: 850000
+    turnover_calculations: 0.80
+  output:
+    eligible_for_covid_19_business_grant: False
